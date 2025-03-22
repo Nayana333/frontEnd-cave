@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Temporary files
+*.swp
+.DS_Store
+
+# IDE/editor configurations
+.vscode/
+.idea/
+
+# TypeScript output
+*.tsbuildinfo
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+vite-env.d.ts
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
